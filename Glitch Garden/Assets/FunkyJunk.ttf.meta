@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 59677d48254c8d141910d6aac1bda282
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FunkyJunk
+  fontNames:
+  - FunkyJunk
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2d623032586c6554cac0a61d6077266a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
