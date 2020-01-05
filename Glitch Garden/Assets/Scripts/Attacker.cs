@@ -1,10 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)] float currentSpeed = 1f;
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,4 +25,6 @@ public class Attacker : MonoBehaviour
     {
         currentSpeed = speed;
     }
+
+   
 }
