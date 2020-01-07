@@ -120,3 +120,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1685ad554a453bb48b445aa269790744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defenderPrefab: {fileID: 762730943064902503, guid: d52c4d8c4259a7c448297f4fe6e1eb9e,
+    type: 3}

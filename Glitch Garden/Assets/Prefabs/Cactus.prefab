@@ -41,6 +41,8 @@ GameObject:
   - component: {fileID: 8703107422258066525}
   - component: {fileID: -7813482097487486814}
   - component: {fileID: 4511186545232674904}
+  - component: {fileID: 5235280448776012034}
+  - component: {fileID: 7485062137085221707}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -102,6 +104,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.83944523, y: 0.78360033}
   m_EdgeRadius: 0
+--- !u!95 &5235280448776012034
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703107422258066522}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6d7b262ba1ab1754da2692db6daeddef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7485062137085221707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703107422258066522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0287683555a0c8946b5a7d31e36b5399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 4654323345721638113, guid: 77aa32f1bdb1d9944ba00d7657647853,
+    type: 3}
+  gun: {fileID: 8703107420488494114}
 --- !u!1 &8703107422294627036
 GameObject:
   m_ObjectHideFlags: 0
