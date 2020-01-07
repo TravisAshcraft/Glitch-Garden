@@ -168,7 +168,8 @@ PrefabInstance:
         type: 3}
       propertyPath: defenderPrefab
       value: 
-      objectReference: {fileID: 6028188419540811726}
+      objectReference: {fileID: 762730943064902503, guid: d52c4d8c4259a7c448297f4fe6e1eb9e,
+        type: 3}
     - target: {fileID: 4248253349126829901, guid: 8eb6cb586cff60f4d80b750bc52709e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -264,7 +265,8 @@ PrefabInstance:
         type: 3}
       propertyPath: defenderPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -7813482097487486814, guid: ce45b1966ea3c784986935a80c9a4cee,
+        type: 3}
     - target: {fileID: 473203675609404319, guid: 96abe3c8be8b5984290d4062ba63ce01,
         type: 3}
       propertyPath: m_LocalPosition.x
