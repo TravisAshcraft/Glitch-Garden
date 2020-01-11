@@ -6,7 +6,7 @@ using UnityEngine;
 public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)] float currentSpeed = 1f;
-    
+    GameObject currentTarget;
 
 
     // Start is called before the first frame update
@@ -26,5 +26,9 @@ public class Attacker : MonoBehaviour
         currentSpeed = speed;
     }
 
-   
+   public void Attack(GameObject target)
+    {
+        GetComponent<Animator>().SetBool("IsAttacking", true);
+        currentTarget = target;
+    }
 }
