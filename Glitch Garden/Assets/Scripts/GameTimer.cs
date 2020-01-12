@@ -7,15 +7,17 @@ public class GameTimer : MonoBehaviour
 {
     [Tooltip ("our level timer in seconds")]
     [SerializeField] float levelTime = 10f;
-
+    bool triggeredLeveFinished = false;
     public void Update()
     {
+        if (triggeredLeveFinished) { return; }
         GetComponent<Slider>().value = Time.timeSinceLevelLoad / levelTime;
 
         bool timerFinished = (Time.timeSinceLevelLoad >= levelTime);
         if (timerFinished)
         {
-            Debug.Log("leve timer expired!");
+            FindObjectOfType<LevelController>().LeveTimerFinished();
+            triggeredLeveFinished = true;
         }
     }
 }
