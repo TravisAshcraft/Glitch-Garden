@@ -36,6 +36,7 @@ public class AttackerSpawner : MonoBehaviour
 
     private void Spawn(Attacker myAttacker)
     {
+        if (!myAttacker) { return; }
         Attacker newAttacker =
        Instantiate(myAttacker,
        transform.position,
