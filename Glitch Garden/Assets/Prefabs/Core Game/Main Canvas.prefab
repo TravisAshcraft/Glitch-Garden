@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3668328280219406223}
   - component: {fileID: 1426698567281851145}
   - component: {fileID: 5644128202113107392}
+  - component: {fileID: 6463352997332478974}
   m_Layer: 5
   m_Name: BaseScore
   m_TagString: Untagged
@@ -77,6 +78,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0000
+--- !u!114 &6463352997332478974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792835563683460261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d74ee8d90431742a24dad228862709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseLives: 3
+  damage: 1
 --- !u!1 &856915745196242589
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +255,7 @@ GameObject:
   - component: {fileID: 2899811589694124677}
   - component: {fileID: 2899811589694124676}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Main Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -433,7 +448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92f0b2d0f16d7b4f854d877b3a8a057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leveTime: 10
+  levelTime: 10
 --- !u!1 &5512465025310286113
 GameObject:
   m_ObjectHideFlags: 0

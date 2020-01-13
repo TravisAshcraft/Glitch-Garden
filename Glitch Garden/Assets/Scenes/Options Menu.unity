@@ -120,75 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &11575552
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3257493498650610820, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_Name
-      value: Music Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 130.73358
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 310.19357
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -379.9737
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3257493498650610821, guid: 847d04496a409a34b85005d61d62ab4d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 847d04496a409a34b85005d61d62ab4d, type: 3}
 --- !u!1 &249449321
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,9 +879,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 448584180}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0.442
+  m_MaxValue: 2
+  m_WholeNumbers: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1933,7 +1864,7 @@ PrefabInstance:
     - target: {fileID: 7544150782407207622, guid: 3a8256b27cfe6ab42b53495fab71acd2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7544150782407207622, guid: 3a8256b27cfe6ab42b53495fab71acd2,
         type: 3}
@@ -1955,5 +1886,10 @@ PrefabInstance:
       propertyPath: volumeSlider
       value: 
       objectReference: {fileID: 2010657733}
+    - target: {fileID: 7544150782407207623, guid: 3a8256b27cfe6ab42b53495fab71acd2,
+        type: 3}
+      propertyPath: difficultySlider
+      value: 
+      objectReference: {fileID: 793180118}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a8256b27cfe6ab42b53495fab71acd2, type: 3}
