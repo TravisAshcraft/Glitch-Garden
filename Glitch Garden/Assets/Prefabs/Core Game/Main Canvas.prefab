@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 7858201832913161020}
   - component: {fileID: 1212306866120105650}
   - component: {fileID: 8309997727589628570}
+  - component: {fileID: 385301607884688802}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -169,6 +170,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
+--- !u!114 &385301607884688802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856915745196242589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762b2d8cfe4d680498bc80a86b6155ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stars: 500
 --- !u!1 &2899811588787761646
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +268,7 @@ GameObject:
   - component: {fileID: 2899811589694124674}
   - component: {fileID: 2899811589694124677}
   - component: {fileID: 2899811589694124676}
+  - component: {fileID: 7114769542790612141}
   m_Layer: 5
   m_Name: Main Canvas
   m_TagString: Untagged
@@ -347,6 +362,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!95 &7114769542790612141
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2899811589694124679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6a2fdc6ec092a594da9afaa853941cd4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3456116076949331659
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92f0b2d0f16d7b4f854d877b3a8a057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 10
+  levelTime: 30
 --- !u!1 &5512465025310286113
 GameObject:
   m_ObjectHideFlags: 0

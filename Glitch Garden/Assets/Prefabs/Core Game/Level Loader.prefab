@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7710962507006477044}
   - component: {fileID: 3989251673532564001}
-  - component: {fileID: 7185480593657156427}
   m_Layer: 0
   m_Name: Level Loader
   m_TagString: Untagged
@@ -47,19 +46,3 @@ MonoBehaviour:
   delayInSceneLoading: 5
   transition: {fileID: 4075575431951440373, guid: 41d64205a3ac5c240a4e38c599f42b7a,
     type: 3}
---- !u!114 &7185480593657156427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2595257445572798110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cd2107d0ae756448b6581cc033b11d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 0}
-  defaultVolume: 0.6
-  difficultySlider: {fileID: 0}
-  defaultDifficulty: 0

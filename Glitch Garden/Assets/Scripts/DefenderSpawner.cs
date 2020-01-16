@@ -5,13 +5,17 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
+   [SerializeField] AudioClip placeDefenderNoise;
     Defender defender;
     GameObject defenderParent;
     const string DEFENDER_PARENT_NAME = "Defenders";
+    float clickVolume = 10f;
+    
 
     private void Start()
     {
         CreateDefenderParent();
+       
     }
 
     private void CreateDefenderParent()
@@ -26,7 +30,10 @@ public class DefenderSpawner : MonoBehaviour
     public void OnMouseDown()
     {
         AttemptToPlaceDefenderAt(GetSquareClicked());
+        AudioSource.PlayClipAtPoint(placeDefenderNoise, Camera.main.transform.position, clickVolume);
     }
+
+   
 
     public void SetSelectedDefender(Defender defenderToSelect)
     {
